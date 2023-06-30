@@ -1,9 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const lowerCase = word.toLowerCase();
+  const reverse = lowerCase.split("").reverse().join("");
+  if (reverse === lowerCase){
+    return true;
+  } else {
+    return false;
+  }
 }
+  console.log(isPalindrome("racecar"))
 
 /* 
-  Add your pseudocode here
+  Add your pseudocode hereS 
 */
 
 /*
